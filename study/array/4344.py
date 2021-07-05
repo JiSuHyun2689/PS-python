@@ -12,7 +12,7 @@ for _ in range(int(stdin.readline())):
     #
     # for score in input_list:
     #     if score > avg:
-    #         count = count + 1
+    #         count = count + study
     #
     # print("%.3f%%" % round(count/num * 100, 3))
 
