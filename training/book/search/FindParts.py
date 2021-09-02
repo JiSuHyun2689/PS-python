@@ -1,12 +1,12 @@
+def CountSort(array):
+    for i in range(len(array)):
+        temp[array[i]] = 1
+
 n = int(input())
 parts = list(map(int, input().split()))
 m = int(input())
 need_parts = list(map(int, input().split()))
 temp = [0] * (max(parts) + 1)
-
-def CountSort(array):
-    for i in range(len(array)):
-        temp[array[i]] = 1
 
 CountSort(parts)
 
